@@ -1,0 +1,7 @@
+SELECT ?subject ?predicate ?object
+WHERE {
+	GRAPH ?g {
+	  ?subject ?predicate ?object
+	}
+}
+LIMIT 1

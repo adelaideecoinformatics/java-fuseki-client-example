@@ -1,0 +1,6 @@
+SELECT ?theType
+WHERE {
+	GRAPH ?g {
+	  %SUBJECT_PLACEHOLDER% a ?theType
+	}
+}
